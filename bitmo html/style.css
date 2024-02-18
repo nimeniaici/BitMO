@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fundal deschis */
+}
+
+header {
+    background-color: #3498db; /* Albastru pentru antet */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #2980b9; /* Albastru mai inchis pentru meniu */
+    padding: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resized-image {
+    max-width: 100%; /* Face imaginea să fie responsivă */
+    height: auto;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #2c3e50; /* Albastru mai inchis la hover */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fancy-font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 20px 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button.turquoise {
+    background-color: #3498db; /* Albastru intens pentru butoane */
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Albastru mai inchis la hover */
+    transform: scale(1.05);
+}
+
+.cloud {
+    background: radial-gradient(circle at 20% 30%, #fff 10%, transparent 15%),
+                radial-gradient(circle at 50% 40%, #fff 10%, transparent 15%),
+                radial-gradient(circle at 75% 30%, #fff 10%, transparent 15%),
+                linear-gradient(#fff, #fff);
+    background-blend-mode: multiply;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #3498db; /* Albastru intens pentru subsol */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
